@@ -36,7 +36,7 @@ img {
 }
 
 .articles {
-    margin: 50px auto;
+    margin: 50px auto 80px auto;
     width: 90%;
     height: 90vw;
     background: rgb(107, 171, 223);
@@ -44,6 +44,8 @@ img {
     justify-content: center;
     align-items: center;
     border: 5px solid black;
+    max-width: 700px;
+    height: 700px;
 }
 
 
@@ -63,6 +65,9 @@ img {
     border-radius: 50%;
     width: 90%;
     height: 90%;
+
+    max-width: 500px;
+    height: 500px;
 }
 
 .purple {
@@ -90,7 +95,7 @@ footer {
 
     background: orangered;
 
-    position: absolute;
+    position: fixed;
     bottom: 0;
     left: 0;
 }
