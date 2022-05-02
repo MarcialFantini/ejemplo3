@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+    display: flex;
+    background: whitesmoke;
+    flex-direction: column;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 65.6%;
+}
+
+img {
+    width: 100%;
+}
+
+.navbar {
+    width: 100%;
+    background: orangered;
+    height: 120px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.navbar h1 {
+    font-size: 5rem;
+
+    padding: 0;
+    margin: 0;
+}
+
+.articles {
+    margin: 50px auto;
+    width: 90%;
+    height: 90vw;
+    background: rgb(107, 171, 223);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid black;
+}
+
+
+.theTime {
+
+    color: white;
+
+    font-size: 3rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    border: 5px solid black;
+    background: rgb(43, 24, 151);
+    border-radius: 50%;
+    width: 90%;
+    height: 90%;
+}
+
+.purple {
+    font-size: 4rem;
+    color: rgb(43, 24, 151);
+}
+
+.text {
+    text-align: center;
+}
+
+.text h1 {
+    margin: 0;
+    padding: 0;
+}
+
+.text p {
+    margin: 0;
+}
+
+footer {
+    text-align: center;
+
+    width: 100%;
+
+    background: orangered;
+
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+form {
+
+    font-size: 2.6rem;
+
+    width: 90%;
+    margin: 40px auto 40px auto;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.inputs {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+}
